@@ -1,0 +1,27 @@
+.image {
+  position: relative;
+}
+.image .sale {
+  top: 2%;
+  position: absolute;
+  right: 4%;
+}
+@media screen and (max-width: 790px) {
+  .image img {
+    margin-top: 35px;
+  }
+}
+.colect h5 {
+  letter-spacing: 0.2em;
+  font-size: 15px;
+  color: #777;
+}
+.colect p {
+  letter-spacing: 0.2em;
+}
+.colect button {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  background-color: #e5e5ee;
+  color: #777;
+}

@@ -1,0 +1,131 @@
+.size {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+}
+.rks h6 {
+  text-transform: capitalize;
+  align-items: center;
+}
+.bg-black {
+  height: 65px;
+}
+.tracking-widest {
+  letter-spacing: 0.3em;
+}
+.w-100 {
+  height: 94vh;
+  background-size: cover;
+  background: no-repeat scroll center scroll;
+}
+.carousel-caption {
+  z-index: 2;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.headermain .carousel-item {
+  position: relative;
+}
+.headermain .carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.59);
+  z-index: 1;
+}
+.carousel-indicators [data-bs-target] {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid white;
+}
+.hamburger {
+  display: none;
+}
+.header-bg {
+  background-color: black;
+}
+
+@media screen and (max-width: 1040px) {
+  .nav_link {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    left: -100%;
+    transition: 0.3s;
+  }
+  .take1,
+  .take {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .take1 {
+    padding-top: 100px;
+  }
+  .nav_link.active {
+    left: 0;
+    display: block;
+  }
+  .hamburger {
+    z-index: 1;
+    display: block;
+    margin-top: 15px;
+  }
+}
+.headermain .div {
+  letter-spacing: 0.7em;
+  font-size: 28px;
+  font-weight: bold;
+}
+.headermain .carousel-control-next-icon {
+  background-color: black;
+  padding: 20px 20px;
+  border-radius: 50%;
+  display: none;
+}
+.headermain:hover .carousel-control-next-icon {
+  display: block;
+}
+.headermain .carousel-control-prev-icon {
+  background-color: black;
+  padding: 20px 20px;
+  border-radius: 50%;
+  display: none;
+}
+.headermain:hover .carousel-control-prev-icon {
+  display: block;
+}
+.headermain button {
+  border: 2px solid white;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+@media screen and (max-width: 1280px) {
+  .headermain .w-100 {
+    height: 70vh;
+  }
+  .headermain .div {
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    margin: 0;
+  }
+  .headermain p {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    margin: 0;
+  }
+  .headermain button {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+}

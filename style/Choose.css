@@ -1,0 +1,14 @@
+.choose h3 {
+  letter-spacing: 0.5em;
+  line-height: 1.4;
+}
+.choose h4 {
+  letter-spacing: 0.4em;
+}
+.choose {
+  color: #777;
+}
+.choose p {
+  font-size: 14px;
+  line-height: 1.86;
+}

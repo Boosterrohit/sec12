@@ -1,0 +1,43 @@
+.box:hover img {
+  transform: scale(1.3);
+  transition: 2s;
+}
+.box {
+  overflow: hidden;
+  height: auto;
+  position: relative;
+}
+.team-text {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  opacity: 0;
+}
+.box:hover .team-text {
+  opacity: 1;
+  top: 80%;
+}
+.box:hover img {
+  opacity: 0.1;
+}
+.secpart {
+  background-color: black;
+}
+.secpart h3 {
+  letter-spacing: 0.3em;
+  color: rgba(255, 255, 255, 0.9);
+}
+.secpart button {
+  letter-spacing: 0.2em;
+}
+@media screen and (max-width: 767px) {
+  .text-area {
+    margin-top: 10px !important;
+  }
+}
+.latest {
+  letter-spacing: 0.5em;
+  font-size: 18px;
+}

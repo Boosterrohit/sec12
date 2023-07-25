@@ -1,0 +1,52 @@
+.aboup {
+  color: #999;
+  font-size: 11px;
+  letter-spacing: 0.4em;
+}
+.progress-line {
+  height: 2px;
+  width: 100%;
+  background-color: #e4e3e3;
+  border-radius: 50px;
+  position: relative;
+}
+.progress-line span {
+  transform: scaleX(0);
+  transform-origin: left;
+  height: 100%;
+  border-radius: 50px;
+  position: absolute;
+  background-color: black !important;
+  transition: 1s all;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+.back-progress,
+.per {
+  font-size: 11px !important;
+}
+.text1 {
+  color: #9f9e9e;
+}
+.font-thin {
+  font-weight: 400;
+  letter-spacing: 0.5em;
+  font-size: 18px;
+  line-height: 1.4;
+}
+@media screen and (max-width: 280px) {
+  .font-thin {
+    font-size: 9px;
+  }
+  .respons {
+    flex-direction: column;
+    justify-content: left;
+  }
+  .respons p {
+    font-size: 8px;
+  }
+}
